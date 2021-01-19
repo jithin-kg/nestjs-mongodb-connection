@@ -4,7 +4,7 @@ import { AppService } from './app.service';
 import { DatabaseModule } from './db/Database.Module';
 
 @Module({
-  imports: [DatabaseModule],
+  imports: [DatabaseModule], //databse
   controllers: [AppController],
   providers: [AppService],
 })
